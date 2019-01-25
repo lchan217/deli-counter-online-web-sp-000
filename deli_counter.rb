@@ -7,7 +7,7 @@ def line(katz_deli)
       new_array.push("#{index+1}. #{person}")
     end
   end
-  puts "The line is currently:" + "#{new_array}"
+  puts "The line is currently:"+"#{new_array}"
 end
 
 def take_a_number(katz_deli, name)
