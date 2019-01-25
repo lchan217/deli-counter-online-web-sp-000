@@ -4,7 +4,7 @@ def line(katz_deli)
   else 
     new_array = []
     katz_deli.each_with_index do |person, index|
-      new_array.push("#{index+1}. #{person}")
+      new_array<<("#{index+1}. #{person}")
     end
   end
   puts "The line is currently:"+"#{new_array}"
