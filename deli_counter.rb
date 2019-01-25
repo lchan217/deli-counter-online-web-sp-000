@@ -2,7 +2,7 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
-    new_array = String.new
+    new_array = []
     katz_deli.each_with_index do |person, index|
       new_array.push("#{index+1}. #{person}")
     end
