@@ -5,9 +5,9 @@ def line(katz_deli)
     new_array = []
     katz_deli.each_with_index do |person, index|
       new_array.push("#{index+1}. #{person}")
-      puts "The line is currently" + "#{new_array}"
     end
   end
+  puts "The line is currently:" + "#{new_array}"
 end
 
 def take_a_number(katz_deli, name)
