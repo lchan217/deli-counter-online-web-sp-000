@@ -3,7 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     return
   else 
-    new_array = []
+    new_array = String.new
     katz_deli.each_with_index do |person, index|
       new_array << (" #{index+1}. #{person}")
     end
